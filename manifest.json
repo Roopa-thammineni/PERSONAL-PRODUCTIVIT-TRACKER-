@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Productivity Tracker",
+  "description": "Track your productivity with daily goals and website usage stats",
+  "version": "1.0",
+  "permissions": ["storage", "tabs", "idle", "alarms", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+    
+  },
+  "host_permissions": ["<all_urls>"]
+}
